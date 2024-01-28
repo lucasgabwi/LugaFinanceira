@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | Luga Financeira</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header class="navbar-container">
+                <nav class="navbar">
+                    <h1 class="logo">
+                        <a href="#">LugaFinance</a>
+                    </h1>
+                    <ul class="navbar-items">
+                        <li class="li-link">
+                            <a href="index.html">Início</a>
+                        </li>
+                        <li class="li-link">
+                            <a href="about-us.html">Sobre nós</a>
+                        </li>
+                        <li class="li-btn">
+                            <a href="signup.html" class="signup-btn">Cadastrar</a>
+                        </li>
+                        <li class="li-btn">
+                            <a href="signin.html" class="signin-btn">Entrar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="body">
+            <form action="signup.php" class="form">
+                <label for="first-name">Nome:</label>
+                <br />
+                <input type="text" name="first-name" class="first-name" placeholder="Digite o seu nome, por favor" required />
+                <label for="last-name">Sobrenome:</label>
+                <br />
+                <input type="text" name="last-name" class="last-name" placeholder="Digite o seu sobrenome, por favor" required />
+                <label for="birth-date">Data de nascimento:</label>
+                <br />
+                <input type="date" name="birth-date" class="birth-date" required />
+                <label for="cpf">CPF:</label>
+                <br />
+                <input type="tel" name="cpf" class="cpf" placeholder="Digite o seu CPF, por favor" required />
+                <label for="phone-number">Número de telefone:</label>
+                <br />
+                <input type="number" name="phone-number" class="phone-number" placeholder="Digite o seu número de telefone, por favor" required />
+                <label for="email">E-mail:</label>
+                <br />
+                <input type="email" name="email" class="email" placeholder="Digite o seu e-mail, por favor" required />
+                <label for="password">Senha:</label>
+                <br />
+                <input type="password" name="password" class="password" placeholder="Digite a sua senha, por favor" required />
+                <br />
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+
+        <footer class="informations-copyright">
+            <p>Copyright &copy; 2024, Luga Financeira. Todos os direitos reservados. Mais sobre nós, clique em Sobre nós ali em cima.</p>
+        </footer>
+    </div>
+</body>
+</html>

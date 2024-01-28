@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar | Luga Financeira</title>
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header class="navbar-container">
+                <nav class="navbar">
+                    <h1 class="logo">
+                        <a href="#">LugaFinance</a>
+                    </h1>
+                    <ul class="navbar-items">
+                        <li class="li-link">
+                            <a href="index.html">Início</a>
+                        </li>
+                        <li class="li-link">
+                            <a href="about-us.html">Sobre nós</a>
+                        </li>
+                        <li class="li-btn">
+                            <a href="signup.html" class="signup-btn">Cadastrar</a>
+                        </li>
+                        <li class="li-btn">
+                            <a href="signin.html" class="signin-btn">Entrar</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="body">
+            <form action="signin.php" class="form">
+                <label for="cpf-email-phonenumber">CPF, E-mail ou Número de Telefone:</label>
+                <br />
+                <input type="text" name="cpf-email-phonenumber" class="cpf-email-phonenumber-input" placeholder="CPF, E-mail ou Número de Telefone, por favor" required />
+                <br />
+                <label for="password">Senha:</label>
+                <br />
+                <input type="password" name="password" class="password" required />
+                <br />
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+        <footer class="informations-copyright">
+            <p>Copyright &copy; 2024, Luga Financeira. Todos os direitos reservados. Mais sobre nós, clique em Sobre nós ali em cima.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

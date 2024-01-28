@@ -1,0 +1,158 @@
+/* reset.css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f768f;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header and navbar */
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #0f768f;
+    color: #fff;
+}
+
+.header {
+    background-color: #333;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.navbar-container {
+    align-items: center;
+    color: #fff;
+}
+
+.navbar .logo a {
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.navbar-items li {
+    display: inline;
+    position: relative;
+    top: -70px;
+    right: -810px;
+    margin: 0 10px;
+}
+
+.navbar-items .li-link a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-items .li-link a:hover {
+    color: #ccc;
+}
+
+.navbar-items .li-btn a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-items .signup-btn {
+    background-color: #0f768f;
+    padding: 10px;
+}
+
+.navbar-items .signin-btn {
+    background-color: #0f768f;
+    padding: 10px;
+}
+
+.navbar-items .signup-btn:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #78f900;
+    color: #000;
+    padding: 10px;
+}
+
+.navbar-items .signin-btn:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #808a10;
+    color: #fff;
+    padding: 10px;
+}
+
+/* main content */
+.main-content {
+    margin: 20px 0;
+}
+
+.main-content .main-container {
+    background-color: #333;
+    padding: 20px 10px;
+}
+
+.main-content .main-container .functions-text-block {
+    margin: 20px;
+}
+
+.main-content .main-container .functions-text-block li {
+    margin-top: 20px
+}
+
+.main-content .main-container .functions-text-block .text-block-title,
+.main-content .main-container .functions-text-block .text-block-paragraph {
+    text-align: center;
+}
+
+/* footer */
+.informations-copyright {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+/* responsivity */
+/* tablets */
+@media screen and (max-width: 768px) {
+
+    .header {
+        width: 100%;
+        height: 70px;
+    }
+
+    .navbar .logo a {
+        margin-left: 10px;
+    }
+
+    .navbar-items li {
+        right: -300px;
+    }
+
+    .informations-copyright {
+        top: -20px;
+    }
+}
+
+/* mobiles */
+@media screen and (max-width: 500px) {
+    .header {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .navbar .logo a {
+        margin-left: 5px;
+    }
+
+    .navbar-items li {
+        right: -140px;
+        margin: 0 4px;
+    }
+}
